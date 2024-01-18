@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --navbar-height: 59px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    justify-content: space-between;
+    background-color: black;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+#logo{
+    
+    margin: 10px 34px;
+    
+}
+#logo img{
+    height: 40px;
+    margin: 3px 6px;
+    
+}
+.flag{
+    width:"24";
+    height:"24";
+    padding: auto;
+}
+.india{
+    color:white;
+    text-decoration:none;
+}
+.icon{
+    color: aqua;
+}
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius:20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+img{
+    max-width: 500px;
+    float: left;
+    border-radius: 3px;
+   border: 3px solid black;
+    margin-right: 20px;
+}
+.container {
+    background-color: black;
+    display: flex;
+    align-items: center; 
+}
+.text {
+    color: white;
+}
+.text1{
+    color: aquamarine;
+}
+.image {
+    width: 500px; 
+    height: auto; 
+    margin-right: 20px; 
+ }
+.picline{
+    position: relative;
+        width: 100%;
+        height: 100vh; /* 100% of the viewport height */
+        background-image: url("https://spanidea.com/in/wp-content/uploads/2023/05/img2-1.webp"); /* Replace 'background.jpg' with your image file */
+        background-size: cover; /* Cover the entire container with the background image */
+        background-position: center; /* Center the background image */
+        color: white; /* Set text color to white */
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        text-align: left;
+}
+.text2{
+        padding: 95px;
+        font-size: 24px;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.bg-color{
+    color:aqua;
+}
+.container1{
+    display: flex;
+}
+.text-column{
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+  }
+  .image-column{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .image1{
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px cyan;
+    margin: 10px;
+  }
+
+.image1:hover {
+    transform: scale(1.1);
+  }
+.k{
+    background-color: black;
+    color:white;
+}
+.pos_cen{
+    background-color: white;
+    align-items: center;
+    position:flex;
+}
+.text_cen{
+    color: black;
+    position: flex;
+    }
+.btn{
+    background: linear-gradient(to right, #87CEEB, #1294ff);
+    color: white;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 5px;
+}
+.img_cen{
+    border-radius: 10px;
+}
+.kp{
+            font-size: 22px;
+            background-color: black;
+            height: 100px;
+            width: 30%;
+            text-align: center;
+            border: cyan;
+            border-width: 5px;
+            border-style: outset;
+            margin-right: 20px;
+            padding-top: 5px;
+}
+.kp:hover{
+   border-color: white;
+}
+.container3{
+    background-color: black;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col h4{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 22px;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+}
+.footer-col h4::before{
+    content: '';
+    width: 70px;
+    height: 2px;
+    position:absolute;
+    background-color: aqua;
+    bottom: -10px;
+}
+.footer-col ul li{
+    padding: 2px 0;
+}
+.footer-col ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footer-col ul li a:hover{
+    color: aqua;
+    opacity: 1;
+}
+.col p{
+    color: white;
+}
+.row hr{
+    opacity: 0.7s;
+
+}
+.row .socialicons i{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin: 0 15 px;
+    transition: 0.5s;
+}
+.col{
+    display: flex;
+    padding: 5px;
+}
+.kittu{
+    margin: 0;
+    padding: 0;
+    height: 34px;
+}
+.p2:hover{
+    color:cyan;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.socialicons:hover{
+    color:cyan;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
